@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.list-item {
+  list-style: none;
+  color: #64748b;
+}
+.left-nav-ul-el {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-bar {
+  background-color: #cbd5e1;
+  padding: 20px;
+  height: 300px;
+  margin: 2px;
+  width: 25%;
+  flex-grow: 0;
+}
+.nav-bar-heading {
+  font-size: medium;
+  color: #475569;
+}
+.right-nav-item-container {
+  border: 1px solid #64748b;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.body-container {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.content-body {
+  display: flex;
+  flex-grow: 1;
+  background-color: #e2e8f0;
+  padding: 20px;
+  height: 300px;
+  margin: 2px;
+  width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body-heading {
+  color: #475569;
+  font-size: large;
+}
+.body-description {
+  font-family: 'Roboto';
+  font-size: medium;
+  color: #64748b;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-body {
+    width: 100%;
+    height: auto;
+  }
+  .right-nav-containers {
+    display: flex;
+  }
+  .left-nav-ul-el {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-item {
+    margin: 5px;
+  }
+  .nav-bar {
+    height: auto;
+  }
+}

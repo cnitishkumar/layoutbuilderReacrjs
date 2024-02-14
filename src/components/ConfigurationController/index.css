@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.layout-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.config-container {
+  background-color: #475569;
+  padding: 30px;
+  padding-top: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.label-el {
+  margin-left: 5px;
+}

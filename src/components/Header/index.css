@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-heading {
+  color: #64748b;
+  text-align: center;
+  font-family: 'Roboto';
+}
